@@ -25,6 +25,17 @@ Versão: 1.0
   height: 46px;
 }
 
+.layout_principal > .botao_iniciar {
+  background-image: url("/jogo-estourando-baloes/img/elementos_botao_iniciar.svg");
+  width: 280px;
+  height: 100px;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 350px;
+  top: 460px;
+  cursor: pointer;
+}
+
 .fundo_botao_nivel {
   background-image: url("/jogo-estourando-baloes/img/elementos_botao_nivel.svg");
   background-repeat: no-repeat;
