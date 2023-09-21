@@ -2,4 +2,11 @@
 Autor: José Augusto Silva
 Versão: 1.0
 */
-
+.layout_principal {
+  background-image: url("/jogo-estourando-baloes/img/cenario.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 900px;
+  height: 600px;
+  margin: 30px 0 0 30px;
+}
