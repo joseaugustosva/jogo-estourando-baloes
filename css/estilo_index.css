@@ -10,6 +10,16 @@ Versão: 1.0
   border: 2px solid green;
 }
 
+.layout_principal > .titulo_jogo {
+  background-image: url("/jogo-estourando-baloes/img/elementos_titulo_jogo.svg");
+  width: 500px;
+  height: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 120px;
+  left: 240px;
+}
+
 .layout_principal > .fundo_cenario_svg {
   background-image: url("/jogo-estourando-baloes/img/cenario.svg");
   background-size: contain;
