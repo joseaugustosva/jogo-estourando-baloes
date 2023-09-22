@@ -9,6 +9,24 @@ Versão: 1.0
   display: flex;
 }
 
+/* Controles audio */
+.layout_principal > .audio {
+  width: 72px;
+  height: 30px;
+  border: 1px solid #f9c13b;
+  position: absolute;
+  margin: 10px 0 0 10px;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.audio > .audio_controls {
+  width: 30px;
+}
+
 .layout_principal > .titulo_jogo {
   background-image: url("/jogo-estourando-baloes/img/elementos_titulo_jogo.svg");
   width: 500px;
